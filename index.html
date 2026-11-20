@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ryan Nailton | Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="https://github.com/RN-FOX.png" />
+</head>
+<body>
+
+  <!-- Menu de Navegação -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">&lt;ryan.nailton /&gt;</a>
+
+      <nav class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato" class="btn-nav">Contato</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema">☀️</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção 1: Apresentação (Hero) -->
+    <section class="hero container">
+      <span class="badge">Estudante de Ciência da Computação</span>
+      <h1>Olá, eu sou <span class="destaque">Ryan Nailton</span>.</h1>
+      <p class="subtitle">
+        Desenvolvedor focado em aplicações web e soluções orientadas a dados —
+        unindo Front-end, Back-end e bancos de dados.
+      </p>
+
+      <div class="cta-group">
+        <a href="https://github.com/RN-FOX" target="_blank" class="btn btn-primary">GitHub</a>
+        <a href="https://www.linkedin.com/in/ryan-nailton-da-silva-marques-49639944a/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- Seção 2: Projetos -->
+    <section id="projetos" class="section container">
+      <h2>Projetos em Destaque</h2>
+      <p class="section-desc">Alguns dos trabalhos que desenvolvi para praticar e aplicar meus conhecimentos.</p>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="frontend">Front-end</button>
+        <button class="filter-btn" data-filter="backend">Back-end & Dados</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Projeto 1: Agência de Turismo -->
+        <article class="project-card" data-category="frontend">
+          <div class="project-content">
+            <h3>Agência de Turismo</h3>
+            <p>
+              Site institucional desenvolvido para uma agência de viagens fictícia, com foco em
+              exibição de destinos, pacotes turísticos e navegação intuitiva.
+            </p>
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/RN-FOX/turismo-maceio" target="_blank">Código no GitHub →</a>
+            <a href="https://RN-FOX.github.io/turismo-maceio" target="_blank">Ver ao vivo →</a>
+          </div>
+        </article>
+
+        <!-- Projeto 2: Espaço reservado para Back-end & Dados -->
+        <article class="project-card" data-category="backend">
+          <div class="project-content">
+            <h3>Em desenvolvimento: Projeto Back-end & Dados</h3>
+            <p>
+              Espaço reservado para minha próxima aplicação utilizando Python,
+              manipulação de dados em JSON e consultas em SQL.
+            </p>
+            <div class="tags">
+              <span>Python</span>
+              <span>SQL</span>
+              <span>JSON</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/" target="_blank">Acompanhar no GitHub →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção 3: Habilidades -->
+    <section id="habilidades" class="section container">
+      <h2>Habilidades & Stack</h2>
+      <p class="section-desc">Tecnologias que utilizo no desenvolvimento web e na manipulação de dados.</p>
+
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h3>Front-end</h3>
+          <div class="tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Back-end & Dados</h3>
+          <div class="tags">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>JSON</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Ferramentas</h3>
+          <div class="tags">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 4: Sobre -->
+    <section id="sobre" class="section container">
+      <h2>Sobre mim</h2>
+      <div class="about-content">
+        <p>
+          Sou estudante de Ciência da Computação apaixonado por tecnologia e resolução de problemas.
+          Atualmente, dedico meus estudos à construção de interfaces web limpas e funcionais, além
+          de aprofundar meus conhecimentos em lógica de programação, Python e bancos de dados SQL.
+        </p>
+        <p>
+          Busco oportunidades para aplicar o que aprendo em projetos reais, colaborar em equipe e
+          evoluir continuamente como desenvolvedor.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seção 5: Contato -->
+    <section id="contato" class="section container">
+      <h2>Vamos conversar?</h2>
+      <p class="section-desc">
+        Estou aberto a oportunidades de estágio, projetos freelance e networking.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:marquesryan774@gmail.com" class="btn btn-primary">Enviar E-mail</a>
+        <a href="https://www.linkedin.com/in/ryan-nailton-da-silva-marques-49639944a/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+        <a href="https://github.com/RN-FOX" target="_blank" class="btn btn-outline">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 RN-FOX. Desenvolvido com HTML, CSS e JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
